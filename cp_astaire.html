@@ -7,8 +7,8 @@
       Review Assignment
 
       Cinema Penguin Fred Astaire Biography Page
-      Author: 
-      Date:   
+      Author: Dominic Torres
+      Date: 12/11/19  
 
       Filename:   cp_astaire.html
 
@@ -19,7 +19,9 @@
    <title>Cinema Penguin: Fred Astaire (1899 - 1987)</title>
    <link href="cp_base2.css" rel="stylesheet" />
    <link href="cp_styles2.css" rel="stylesheet" />
-    
+   <link href="cp_media2.css" rel="stylesheet" />
+   <link href="cp_animate2.css" rel="stylesheet" />
+
 </head>
 
 <body>
@@ -128,6 +130,13 @@
                Crosby. The clip below comes from the song
                <cite>Ev'ry Night at Seven</cite> from <cite>Royal Wedding</cite>.</p>         
                
+         <audio controls>
+            <source src="cp_song.mp3" type="audio/mp3" />
+            <source src="cp_song.ogg" type="audio/mp3" />
+            <embed src="cp_song.mp3" width="250" height="50" controller="yes"
+            showcontrols="yes" autoplay="no" autostart="no"/>
+            <p><em>To play this audio clip, your browser needs to support HTML5.</em></p>
+         </audio>
       </aside>
             
       <aside>
@@ -137,7 +146,12 @@
                anyone look good. The clip below is from <cite>Royal
                Wedding</cite> where his partner was ... a hat rack.
          </p>  
-       
+         <video controls>
+            <source src="cp_hatrack.mp4" type="video/mp4" />
+            <source src="cp_hatrack.webm" type="video/mp4" />
+            <track kind="captions" label="Label Captions" src="cp_captions2.vtt" default />
+            <p><em>To play this video clip, your browser needs to suport HTML5.</em></p>
+         </video>
              
       </aside> 
    </section>  
