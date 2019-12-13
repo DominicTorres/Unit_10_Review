@@ -43,8 +43,19 @@ div#marquee table{
 
 /* Keyframe Styles */
   
-
+@keyframes scroll{
+   0% {top: 250px;}
+   100% {top: -1300px;}
+}
 
 
 /* Animation Styles */
+
+div#marquee{
+   animation: scroll 50s linear infinite;
+}
+
+div#marquee:hover{
+   animation-play-state: paused;
+}
 
