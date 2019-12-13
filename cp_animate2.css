@@ -51,11 +51,11 @@ div#marquee table{
 
 /* Animation Styles */
 
-div#marquee{
+div#marquee table{
    animation: scroll 50s linear infinite;
 }
 
-div#marquee:hover{
+div#marquee table:hover{
    animation-play-state: paused;
 }
 
